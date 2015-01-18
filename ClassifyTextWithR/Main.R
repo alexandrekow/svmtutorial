@@ -21,7 +21,7 @@ model <- train_model(container, "SVM", kernel="linear", cost=1)
 # new data
 predictionData <- list("sunny sunny sunny rainy rainy", "rainy sunny rainy rainy", "hello", "", "this is another rainy world") 
 
-# create a prediction document term matrix
+# create a prediction document term matrix 
 predMatrix <- create_matrix(predictionData, originalMatrix=dtMatrix) 
 
 # create the corresponding container
