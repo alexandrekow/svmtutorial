@@ -1,0 +1,6 @@
+{{- if and .IsPage (eq .Type "posts") -}}
+<aside class="author-box">
+  <p><strong>Alexandre Kowalczyk</strong>: I am passionate about machine learning and Support Vector Machine. I like to explain things simply to share my knowledge with people from around the world.</p>
+  {{ partial "kofi-button.html" . }}
+</aside>
+{{- end -}}

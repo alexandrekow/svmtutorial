@@ -3,6 +3,7 @@ title: "SVM - Understanding the math - the optimal hyperplane"
 date: "2015-06-08T17:35:43"
 url: "/2015/06/svm-understanding-math-part-3/"
 weight: 30
+linkTitle: "Part 3: The optimal hyperplane"
 description: "How do we find the optimal hyperplane for a SVM. This article will explain you the mathematical reasoning necessary to derive the svm optimization problem."
 ---
 

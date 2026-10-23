@@ -3,6 +3,7 @@ title: "SVM - Understanding the math - Part 1 - The margin"
 date: "2014-11-02T19:04:29"
 url: "/2014/11/svm-understanding-math-part-1/"
 weight: 10
+linkTitle: "Part 1: The margin"
 description: "This is a gentle introduction to the math behind SVM (Support Vector Machine). This will explain what is the margin to the beginners in simple terms."
 ---
 

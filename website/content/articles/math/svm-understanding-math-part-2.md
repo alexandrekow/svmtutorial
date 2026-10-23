@@ -3,6 +3,7 @@ title: "SVM - Understanding the math - Part 2"
 date: "2014-11-09T19:00:17"
 url: "/2014/11/svm-understanding-math-part-2/"
 weight: 20
+linkTitle: "Part 2: Calculate the margin"
 description: "In this article about Support Vector Machines, after reviewing some basics about vectors, I explain how to compute the margin of an hyperplane."
 ---
 

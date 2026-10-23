@@ -152,6 +152,8 @@ If you wish to learn more about how SVM work for classification, you can start r
 ### SVM - Understanding the math
 
 [**Part 1: What is the goal of the Support Vector Machine (SVM)?**](/2014/11/svm-understanding-math-part-1/)  
-[Part 2: How to compute the margin?](/2014/11/svm-understanding-math-part-2/)[Part 3: How to find the optimal hyperplane?](/2015/06/svm-understanding-math-part-3/)[Part 4: Unconstrained minimization](/2016/09/unconstrained-minimization/)  
+[Part 2: How to compute the margin?](/2014/11/svm-understanding-math-part-2/)  
+[Part 3: How to find the optimal hyperplane?](/2015/06/svm-understanding-math-part-3/)  
+[Part 4: Unconstrained minimization](/2016/09/unconstrained-minimization/)  
 [Part 5: Convex functions](/2016/09/convex-functions/)  
 [Part 6: Duality and Lagrange multipliers](/2016/09/duality-lagrange-multipliers/)

@@ -3,6 +3,7 @@ title: "SVM - Understanding the math - Unconstrained minimization"
 date: "2016-09-11T18:31:32"
 url: "/2016/09/unconstrained-minimization/"
 weight: 40
+linkTitle: "Part 4: Unconstrained minimization"
 description: "You will learn how to solve a minimization problem without constraints and what is convexity. This will help you understand SVMs better."
 ---
 
