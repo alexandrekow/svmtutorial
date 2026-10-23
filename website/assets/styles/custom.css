@@ -5,3 +5,19 @@
 .ebook-promo { margin-top: 2rem; font-size: var(--font-size-smaller); }
 .ebook-promo img { display: block; margin-top: .5rem; }
 .book-toc nav a { display: block !important; }
+.author-box {
+  margin-top: 2rem;
+  padding: 1rem;
+  border-top: 1px solid var(--gray-200);
+  font-size: var(--font-size-smaller);
+}
+a.kofi-button {
+  display: inline-block;
+  padding: .4rem 1rem;
+  border-radius: 6px;
+  background: #ff5f5f;
+  color: #fff !important;
+  font-weight: bold;
+  text-decoration: none;
+}
+a.kofi-button:hover { background: #e94b4b; }

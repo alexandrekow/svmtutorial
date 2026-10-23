@@ -52,9 +52,9 @@ He kindly agreed for me to share them so that they can be used by other teachers
 
 **You can download the slides below**:
 
-[SVM-I](/wp-content/uploads/2020/09/SVM-I.pptx)[Download](/wp-content/uploads/2020/09/SVM-I.pptx)
+[SVM-I](/wp-content/uploads/2020/09/SVM-I.pptx) [Download](/wp-content/uploads/2020/09/SVM-I.pptx)
 
-[SVM-II](/wp-content/uploads/2020/09/SVM-II.pptx)[Download](/wp-content/uploads/2020/09/SVM-II.pptx)
+[SVM-II](/wp-content/uploads/2020/09/SVM-II.pptx) [Download](/wp-content/uploads/2020/09/SVM-II.pptx)
 
 ## What's next?
 

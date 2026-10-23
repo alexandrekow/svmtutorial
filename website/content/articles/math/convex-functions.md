@@ -3,6 +3,7 @@ title: "SVM - Understanding the math - Convex functions"
 date: "2016-09-11T18:42:52"
 url: "/2016/09/convex-functions/"
 weight: 50
+linkTitle: "Part 5: Convex functions"
 description: "In this article, you will learn what a convex set and convex functions are. We will also see why convex functions are usually easier to optimize."
 ---
 

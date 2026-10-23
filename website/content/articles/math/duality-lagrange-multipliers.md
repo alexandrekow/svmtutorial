@@ -3,6 +3,7 @@ title: "SVM - Understanding the math - Duality and Lagrange multipliers"
 date: "2016-09-11T18:47:54"
 url: "/2016/09/duality-lagrange-multipliers/"
 weight: 60
+linkTitle: "Part 6: Duality and Lagrange multipliers"
 description: "In this article, you will learn duality and optimization problems. Then we will see how to solve an equality constrained problem with Lagrange multipliers."
 ---
 

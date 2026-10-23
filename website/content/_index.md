@@ -11,7 +11,7 @@ SVM are known to be difficult to grasp. Many people refer to them as "black box"
 This tutorial series is intended to give you all the necessary tools to really **understand** the math behind SVM.  
 It starts softly and then get more complicated. But **my goal here is to keep everybody on board**, especially people who do not have a strong mathematical background.
 
-{{< button relref="/articles/math/svm-understanding-math-part-1" >}}Read the Support Vector Machine tutorial{{< /button >}}
+{{< button href="/2014/11/svm-understanding-math-part-1/" >}}Read the Support Vector Machine tutorial{{< /button >}}
 
 If you wish to have an overview of what SVMs are, you can read this article: [An overview of Support Vector Machines](/2017/02/svms-overview-support-vector-machines/)
 

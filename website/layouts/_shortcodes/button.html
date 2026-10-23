@@ -1,0 +1,5 @@
+{{- /* Like the theme's button, but site-root links also work under a sub-path (github.io/svmtutorial). */ -}}
+{{- $href := .Get "href" -}}
+{{- if hasPrefix $href "/" }}{{ $href = strings.TrimPrefix "/" $href | relURL }}{{ end -}}
+<a class="book-btn" href="{{ $href }}">{{ .InnerDeindent }}</a>
+{{- /* remove whitespaces */ -}}
