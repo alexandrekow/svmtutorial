@@ -61,7 +61,7 @@ It is because as always the simplicity requires some abstraction and mathematica
 
 So we will now go through this recipe step by step:
 
-### Step 1: You have a dataset ### $\mathcal{D}$ and you want to classify it
+### Step 1: You have a dataset $\mathcal{D}$ and you want to classify it
 
 Most of the time your data will be composed of $n$ vectors $\mathbf{x}_i$.
 
@@ -361,7 +361,7 @@ When $\|\textbf{w}\|=4$ then $m=\frac{1}{2}$
 
 One can easily see that the bigger the norm is, the smaller the margin become.
 
-### Maximizing the margin is the same thing as minimizing the norm of $$\textbf{w}$$
+### Maximizing the margin is the same thing as minimizing the norm of $\textbf{w}$
 
 Our goal is to maximize the margin. Among all possible hyperplanes meeting the constraints,  we will choose the hyperplane with the smallest $\|\textbf{w}\|$ because it is the one which will have the biggest margin.
 

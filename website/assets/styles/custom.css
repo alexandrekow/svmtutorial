@@ -4,3 +4,4 @@
 .book-hint .callout-title { font-weight: bold; margin-bottom: .25rem; }
 .ebook-promo { margin-top: 2rem; font-size: var(--font-size-smaller); }
 .ebook-promo img { display: block; margin-top: .5rem; }
+.book-toc nav a { display: block !important; }

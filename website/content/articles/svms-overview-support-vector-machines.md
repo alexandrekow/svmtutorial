@@ -79,7 +79,7 @@ Sometime, you will see people talk about SVM, and sometime about SVMs.
 
 As often Wikipedia is quite good at stating things clearly:
 
-> In machine learning, support vector machines (**SVMs**) **are supervised learning models****with associated learning algorithms** that analyze data used for classification and regression analysis. [(Wikipedia)](https://en.wikipedia.org/wiki/Support_vector_machine)
+> In machine learning, support vector machines (**SVMs**) **are supervised learning models with associated learning algorithms** that analyze data used for classification and regression analysis. [(Wikipedia)](https://en.wikipedia.org/wiki/Support_vector_machine)
 
 So, we now discover that there are several models, which belongs to the SVM family.
 

@@ -6,7 +6,7 @@ weight: 40
 description: "You will learn how to solve a minimization problem without constraints and what is convexity. This will help you understand SVMs better."
 ---
 
-![maths](/wp-content/uploads/2016/07/maths-300x94.jpg)
+![maths](/wp-content/uploads/2016/07/maths.jpg)
 
 This is the **Part 4** of my series of tutorials about the math behind Support Vector Machines.  
 Today we are going to learn how to solve an unconstrained minimization problem.
@@ -41,8 +41,7 @@ The first thing to notice about this optimization problem is that it has **cons
 
 "OK, How do I solve it? I have been waiting for this for one year !!!"
 
-## ![not_so_fast](/wp-content/uploads/2016/04/not_so_fast.jpg)
-
+![not_so_fast](/wp-content/uploads/2016/04/not_so_fast.jpg)
 Before tackling such a complicated problem, let us start with a simpler one. We will first look at how to solve an unconstrained optimization problem, more specifically, we will study **unconstrained minimization**. That is the problem of finding which input makes a function return its minimum. (Note: in the SVM case,  we wish to minimize the function computing the norm of $\textbf{w}$, we could call it $f$ and write it $f(\textbf{w}) = \|\textbf{w}\|$).
 
 ## Unconstrained minimization
