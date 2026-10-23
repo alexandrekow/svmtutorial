@@ -1,0 +1,17 @@
+@media print {
+  .book-menu,
+  .book-footer,
+  .book-toc {
+    display: none;
+  }
+
+  a::after {
+    content: attr(href);
+    margin: 0 var(--space-4);
+  }
+
+  main {
+    /* Fix for https://bugzilla.mozilla.org/show_bug.cgi?id=939897 */
+    display: block !important;
+  }
+}

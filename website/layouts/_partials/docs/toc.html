@@ -1,0 +1,11 @@
+{{ partial "docs/inject/toc-before" . }}
+{{- /* Headings containing $...$ math are shown as KaTeX in the table of contents too. */ -}}
+{{- $toc := string .TableOfContents -}}
+{{- range $match := uniq (findRE `\$[^$<]+\$` $toc) -}}
+  {{- $tex := strings.Trim $match "$" | htmlUnescape -}}
+  {{- with try (transform.ToMath $tex (dict "output" "html" "throwOnError" false)) -}}
+    {{- if not .Err }}{{ $toc = replace $toc $match .Value }}{{ end -}}
+  {{- end -}}
+{{- end -}}
+{{ $toc | safeHTML }}
+{{ partial "docs/inject/toc-after" . }}

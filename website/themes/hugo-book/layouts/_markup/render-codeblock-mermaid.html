@@ -1,0 +1,3 @@
+{{- /* remove whitespaces */ -}}
+<pre class="mermaid">{{ .Inner | htmlEscape | safeHTML -}}</pre>
+{{- partial "docs/shortcodes/mermaid" .Page -}}

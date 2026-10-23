@@ -1,0 +1,5 @@
+{{- /* Make site-internal links work both on github.io/svmtutorial and on the custom domain. */ -}}
+{{- $dest := .Destination -}}
+{{- if hasPrefix $dest "/" -}}{{- $dest = strings.TrimPrefix "/" $dest | relURL -}}{{- end -}}
+<a href="{{ $dest | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if strings.HasPrefix .Destination "http" }} rel="noopener"{{ end }}>{{ .Text | safeHTML }}</a>
+{{- /**/ -}}
