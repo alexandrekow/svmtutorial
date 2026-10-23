@@ -1,0 +1,11 @@
+{{- /* Render $...$ and $$...$$ to KaTeX HTML at build time. */ -}}
+{{- $opts := dict "output" "htmlAndMathml" "displayMode" (eq .Type "block") "throwOnError" false -}}
+{{- with try (transform.ToMath .Inner $opts) -}}
+  {{- with .Err -}}
+    {{- warnf "KaTeX error in %s: %s" $.Page.File.Path . -}}
+    <code>{{ $.Inner }}</code>
+  {{- else -}}
+    {{- .Value -}}
+    {{- $.Page.Store.Set "hasMath" true -}}
+  {{- end -}}
+{{- end -}}

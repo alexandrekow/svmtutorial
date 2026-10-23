@@ -1,0 +1,39 @@
+baseURL = "https://www.svm-tutorial.com/"
+locale = "en-us"
+title = "SVM Tutorial"
+enableRobotsTXT = true
+disableKinds = ["taxonomy", "term"]
+
+theme = "hugo-book"
+
+[permalinks]
+  # Articles keep their WordPress URLs through the `url` front matter field.
+  articles = "/:year/:month/:slug/"
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.goldmark.extensions.passthrough]
+    enable = true
+    [markup.goldmark.extensions.passthrough.delimiters]
+      block = [["$$", "$$"], ["\\[", "\\]"]]
+      inline = [["$", "$"], ["\\(", "\\)"]]
+  [markup.highlight]
+    style = "github"
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
+
+[params]
+  description = "Support Vector Machine tutorials: the math behind SVMs, explained step by step for beginners."
+  author = "Alexandre KOWALCZYK"
+  BookSection = "articles"
+  BookToC = true
+  BookTheme = "auto"
+  BookDateFormat = "January 2, 2006"
+  BookComments = false
+  BookSearch = true
+  BookRepo = "https://github.com/alexandrekow/svmtutorial"
+
+[sitemap]
+  changeFreq = "monthly"

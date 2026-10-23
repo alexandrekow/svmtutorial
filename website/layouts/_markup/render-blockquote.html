@@ -1,0 +1,14 @@
+{{- /* Obsidian/GitHub callouts ("> [!abstract] Definition") use the theme's hint boxes. */ -}}
+{{- if eq .Type "alert" -}}
+{{- $kind := .AlertType | lower -}}
+{{- $map := dict "abstract" "info" "summary" "info" "definition" "info" "example" "success" "quote" "default" "question" "important" "danger" "danger" "bug" "danger" "failure" "danger" -}}
+{{- $class := index $map $kind | default $kind -}}
+<blockquote class="book-hint {{ $class }}">
+<p class="callout-title">{{ with .AlertTitle }}{{ . }}{{ else }}{{ $kind | title }}{{ end }}</p>
+{{ .Text }}
+</blockquote>
+{{- else -}}
+<blockquote>
+{{ .Text }}
+</blockquote>
+{{- end -}}

@@ -1,0 +1,10 @@
+{{- $attributes := partial "docs/text/mapper" (dict
+  "attributes" (cond .IsNamedParams .Params dict)
+  "merge" (dict
+    "class" "mermaid"
+  )
+) -}}
+<pre {{ partial "docs/html-attrs" $attributes | safeHTMLAttr }}>
+  {{- .Inner | htmlEscape | safeHTML -}}
+</pre>
+{{- partial "docs/shortcodes/mermaid" .Page -}}

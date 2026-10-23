@@ -1,0 +1,10 @@
+{{- $attributes := merge
+  (dict
+    "displayMode" true
+    "output" "mathml")
+  .Attributes
+-}}
+{{- if .Inner -}}
+  {{ transform.ToMath .Inner $attributes }}
+{{- end -}}
+{{- partial "docs/shortcodes/katex" .Page -}}
