@@ -2,6 +2,7 @@ baseURL = "https://www.svm-tutorial.com/"
 locale = "en-us"
 title = "SVM Tutorial"
 enableRobotsTXT = true
+copyright = "© Alexandre Kowalczyk"
 disableKinds = ["taxonomy", "term"]
 
 theme = "hugo-book"
