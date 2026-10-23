@@ -1,0 +1,4 @@
+{{- /* Full-width green call-to-action, as on the old WordPress home page. */ -}}
+{{- $href := .Get "href" -}}
+{{- if hasPrefix $href "/" }}{{ $href = strings.TrimPrefix "/" $href | relURL }}{{ end -}}
+<p class="cta-banner"><a href="{{ $href }}">{{ .InnerDeindent }}</a></p>
