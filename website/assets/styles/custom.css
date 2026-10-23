@@ -21,3 +21,11 @@ a.kofi-button {
   text-decoration: none;
 }
 a.kofi-button:hover { background: #e94b4b; }
+.cta-banner {
+  margin: 1.5rem 0;
+  padding: 1.5rem 1rem;
+  background: #b6e1bb;
+  text-align: center;
+  font-size: 1.15em;
+}
+.cta-banner a { display: block; }
